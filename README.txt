@@ -11,7 +11,7 @@ All should use this directory as the current directory
 3) Create a virtual environment: python3 -m venv 02venv      
 4) Source the activation for the environmnet: source 02venv/bin/activate
    Your prompt should reflect the virtual environment
-5) Add  the redis module: python3 -m pip redis
+5) Add  the redis module: python3 -m pip install redis
 6) Run the listener: python3 02-listener.py
 
 7) go to the 3rd window
