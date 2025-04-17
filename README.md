@@ -34,7 +34,7 @@ You can connect with redis:
     my_redis = redis.Redis(host='localhost', port=6379, db=0)
     my_pubsub = my_redis.pubsub()
     my_pubsub.subscribe('Jazz')
-    my_pubsub.publish('Folk','Arlo Guthrie')
+    my_redis.publish('Folk','Arlo Guthrie')
 ```
 and so forth
 
